@@ -1,9 +1,8 @@
-#############################################################
-#                                                           #
-#   This config file is for testing bluetooth build only.   #
-#                                                           #
-#############################################################
+# CI configuration
 
+This config fragment is used for testing Bluetooth builds only.
+
+```text
 CONFIG_VIRTIO=y
 CONFIG_VIRTIO_PCI=y
 
@@ -120,3 +119,4 @@ CONFIG_LOCKDEP=y
 CONFIG_DEBUG_MUTEXES=y
 
 CONFIG_OF=y
+```

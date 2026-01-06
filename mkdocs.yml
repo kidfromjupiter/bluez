@@ -5,15 +5,51 @@ docs_dir: doc
 site_dir: site
 nav:
   - Home: index.md
+  - Development and Maintenance:
+      - Coding style: coding-style.md
+      - CI configuration: ci-config.md
+      - Maintainer guidelines: maintainer-guidelines.md
+      - Security bugs: security-bugs.md
+      - Settings storage: settings-storage.md
+      - Supported features: supported-features.md
+      - Test coverage: test-coverage.md
+      - Test runner: test-runner.md
+      - Tester configuration: tester-config.md
   - Protocols and Management:
       - HCI: hci.md
       - L2CAP: l2cap.md
       - RFCOMM: rfcomm.md
       - SCO: sco.md
       - ISO: iso.md
-      - MGMT: mgmt.md
-  - Testing:
-      - Test runner: test-runner.md
+      - MGMT:
+          - Overview: mgmt/index.md
+          - Commands (Part 1): mgmt/commands-1.md
+          - Commands (Part 2): mgmt/commands-2.md
+          - Commands (Part 3): mgmt/commands-3.md
+          - Commands (Part 4): mgmt/commands-4.md
+          - Commands (Part 5): mgmt/commands-5.md
+          - Commands (Part 6): mgmt/commands-6.md
+          - Commands (Part 7): mgmt/commands-7.md
+          - Commands (Part 8): mgmt/commands-8.md
+          - Commands (Part 9): mgmt/commands-9.md
+          - Commands (Part 10): mgmt/commands-10.md
+          - Commands (Part 11): mgmt/commands-11.md
+          - Commands (Part 12): mgmt/commands-12.md
+          - Commands (Part 13): mgmt/commands-13.md
+          - Commands (Part 14): mgmt/commands-14.md
+          - Commands (Part 15): mgmt/commands-15.md
+          - Commands (Part 16): mgmt/commands-16.md
+          - Commands (Part 17): mgmt/commands-17.md
+          - Commands (Part 18): mgmt/commands-18.md
+          - Commands (Part 19): mgmt/commands-19.md
+          - Commands (Part 20): mgmt/commands-20.md
+          - Commands (Part 21): mgmt/commands-21.md
+          - Commands (Part 22): mgmt/commands-22.md
+          - Commands (Part 23): mgmt/commands-23.md
+          - Commands (Part 24): mgmt/commands-24.md
+          - Commands (Part 25): mgmt/commands-25.md
+          - Commands (Part 26): mgmt/commands-26.md
+          - Commands (Part 27): mgmt/commands-27.md
   - D-Bus Interfaces:
       - Core:
           - org.bluez.Adapter: org.bluez.Adapter.md

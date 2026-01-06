@@ -1,3 +1,8 @@
+# Tester configuration
+
+This config fragment is used for testing and kernel feature coverage.
+
+```text
 CONFIG_PCI=y
 CONFIG_VIRTIO=y
 CONFIG_VIRTIO_PCI=y
@@ -102,3 +107,4 @@ CONFIG_BT_VIRTIO=y
 CONFIG_BT_NXPUART=y
 CONFIG_BT_INTEL_PCIE=y
 # end of Bluetooth device drivers
+```

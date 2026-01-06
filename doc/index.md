@@ -6,15 +6,15 @@ source files.
 
 ## Development and Maintenance
 
-- [Coding style](coding-style.txt)
-- [CI configuration](ci.config)
-- [Maintainer guidelines](maintainer-guidelines.txt)
-- [Security bugs](security-bugs.txt)
-- [Settings storage](settings-storage.txt)
-- [Supported features](supported-features.txt)
-- [Test coverage](test-coverage.txt)
+- [Coding style](coding-style.md)
+- [CI configuration](ci-config.md)
+- [Maintainer guidelines](maintainer-guidelines.md)
+- [Security bugs](security-bugs.md)
+- [Settings storage](settings-storage.md)
+- [Supported features](supported-features.md)
+- [Test coverage](test-coverage.md)
 - [Test runner](test-runner.md)
-- [Tester configuration](tester.config)
+- [Tester configuration](tester-config.md)
 
 ## Protocol and Management References
 
