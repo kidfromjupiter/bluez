@@ -475,52 +475,52 @@ EXTRA_DIST += $(test_scripts)
 
 EXTRA_DIST += doc/assigned-numbers.txt doc/supported-features.txt \
 				doc/test-coverage.txt \
-				doc/test-runner.rst \
+				doc/test-runner.md \
 				doc/settings-storage.txt
 
 EXTRA_DIST += doc/health-api.txt \
 		doc/sap-api.txt
 
-EXTRA_DIST += doc/hci.rst doc/mgmt.rst doc/l2cap.rst doc/rfcomm.rst \
-	      doc/sco.rst doc/iso.rst
+EXTRA_DIST += doc/hci.md doc/mgmt.md doc/l2cap.md doc/rfcomm.md \
+	      doc/sco.md doc/iso.md
 
-EXTRA_DIST += doc/org.bluez.Adapter.rst doc/org.bluez.Device.rst \
-		doc/org.bluez.Bearer.LE.rst doc/org.bluez.Bearer.BREDR.rst \
-		doc/org.bluez.DeviceSet.rst doc/org.bluez.AgentManager.rst \
-		doc/org.bluez.Agent.rst doc/org.bluez.ProfileManager.rst \
-		doc/org.bluez.Profile.rst doc/org.bluez.NetworkServer.rst \
-		doc/org.bluez.Network.rst doc/org.bluez.Input.rst \
-		doc/org.bluez.BatteryProviderManager.rst \
-		doc/org.bluez.BatteryProvider.rst doc/org.bluez.Battery.rst \
-		doc/org.bluez.AdminPolicySet.rst \
-		doc/org.bluez.AdminPolicyStatus.rst
+EXTRA_DIST += doc/org.bluez.Adapter.md doc/org.bluez.Device.md \
+		doc/org.bluez.Bearer.LE.md doc/org.bluez.Bearer.BREDR.md \
+		doc/org.bluez.DeviceSet.md doc/org.bluez.AgentManager.md \
+		doc/org.bluez.Agent.md doc/org.bluez.ProfileManager.md \
+		doc/org.bluez.Profile.md doc/org.bluez.NetworkServer.md \
+		doc/org.bluez.Network.md doc/org.bluez.Input.md \
+		doc/org.bluez.BatteryProviderManager.md \
+		doc/org.bluez.BatteryProvider.md doc/org.bluez.Battery.md \
+		doc/org.bluez.AdminPolicySet.md \
+		doc/org.bluez.AdminPolicyStatus.md
 
-EXTRA_DIST += doc/org.bluez.Media.rst doc/org.bluez.MediaControl.rst \
-		doc/org.bluez.MediaPlayer.rst doc/org.bluez.MediaFolder.rst \
-		doc/org.bluez.MediaItem.rst doc/org.bluez.MediaEndpoint.rst \
-		doc/org.bluez.MediaTransport.rst doc/org.bluez.MediaAssistant.rst
+EXTRA_DIST += doc/org.bluez.Media.md doc/org.bluez.MediaControl.md \
+		doc/org.bluez.MediaPlayer.md doc/org.bluez.MediaFolder.md \
+		doc/org.bluez.MediaItem.md doc/org.bluez.MediaEndpoint.md \
+		doc/org.bluez.MediaTransport.md doc/org.bluez.MediaAssistant.md
 
-EXTRA_DIST += doc/org.bluez.GattManager.rst doc/org.bluez.GattProfile.rst\
-		doc/org.bluez.GattService.rst \
-		doc/org.bluez.GattCharacteristic.rst \
-		doc/org.bluez.GattDescriptor.rst \
-		doc/org.bluez.LEAdvertisingManager.rst \
-		doc/org.bluez.LEAdvertisement.rst \
-		doc/org.bluez.AdvertisementMonitorManager.rst \
-		doc/org.bluez.AdvertisementMonitor.rst
+EXTRA_DIST += doc/org.bluez.GattManager.md doc/org.bluez.GattProfile.md\
+		doc/org.bluez.GattService.md \
+		doc/org.bluez.GattCharacteristic.md \
+		doc/org.bluez.GattDescriptor.md \
+		doc/org.bluez.LEAdvertisingManager.md \
+		doc/org.bluez.LEAdvertisement.md \
+		doc/org.bluez.AdvertisementMonitorManager.md \
+		doc/org.bluez.AdvertisementMonitor.md
 
-EXTRA_DIST += doc/org.bluez.obex.Client.rst doc/org.bluez.obex.Session.rst \
-		doc/org.bluez.obex.Transfer.rst \
-		doc/org.bluez.obex.ObjectPush.rst \
-		doc/org.bluez.obex.FileTransfer.rst \
-		doc/org.bluez.obex.Synchronization.rst \
-		doc/org.bluez.obex.PhonebookAccess.rst \
-		doc/org.bluez.obex.MessageAccess.rst \
-		doc/org.bluez.obex.Message.rst \
-		doc/org.bluez.obex.AgentManager.rst doc/org.bluez.obex.Agent.rst \
-		doc/org.bluez.obex.Image.rst
+EXTRA_DIST += doc/org.bluez.obex.Client.md doc/org.bluez.obex.Session.md \
+		doc/org.bluez.obex.Transfer.md \
+		doc/org.bluez.obex.ObjectPush.md \
+		doc/org.bluez.obex.FileTransfer.md \
+		doc/org.bluez.obex.Synchronization.md \
+		doc/org.bluez.obex.PhonebookAccess.md \
+		doc/org.bluez.obex.MessageAccess.md \
+		doc/org.bluez.obex.Message.md \
+		doc/org.bluez.obex.AgentManager.md doc/org.bluez.obex.Agent.md \
+		doc/org.bluez.obex.Image.md
 
-EXTRA_DIST += doc/org.bluez.Telephony.rst doc/org.bluez.Call.rst
+EXTRA_DIST += doc/org.bluez.Telephony.md doc/org.bluez.Call.md
 
 EXTRA_DIST += doc/pics-opp.txt doc/pixit-opp.txt \
 		doc/pts-opp.txt
