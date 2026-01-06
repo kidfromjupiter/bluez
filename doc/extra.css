@@ -1,0 +1,10 @@
+/* Widen the main content area so nav + content use more screen width. */
+.wy-nav-content {
+    max-width: 1400px;
+}
+
+@media (min-width: 1400px) {
+    .wy-nav-content {
+        max-width: 1600px;
+    }
+}

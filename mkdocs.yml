@@ -118,3 +118,5 @@ nav:
           - org.bluez.obex.Image: org.bluez.obex.Image.md
 theme:
   name: readthedocs
+extra_css:
+  - extra.css
